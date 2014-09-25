@@ -2,6 +2,7 @@
 # Two Player Game
 # Emerson Grabke
 
+# Programmed using Python 3.3.2
 
 def play():
     '''(None) -> None
@@ -25,7 +26,7 @@ def play():
             print('You have chosen a {} by {} grid'.format(
                 int(grid_size), int(grid_size)))
         else:
-            print('You have entered an invalid grid size!')
+            print('You have entered an invalid grid size! Size must be any of 4, 9 or 16')
 
     grid = [[0]*grid_size for element in [0]*grid_size]
     grid_length = int(grid_size**0.5)

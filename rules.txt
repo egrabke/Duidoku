@@ -1,0 +1,15 @@
+Duidoku: The two-person Sudoku game
+
+Rules:
+Pick a square grid size (any of 4, 9 or 16. Editing line 22 will allow for more square grid sizes)
+
+Player A starts, inputting a move in the form: row, column, value
+Row and Column range from 0 to (grid_size - 1)
+Value ranges from 1 to grid_size
+
+At any point in time, input s to save game state, l to load game state, and q to quit
+Don't worry about losing your place when saving/loading, the program knows whose turn it is
+
+Keep going until a player can't make a valid move. That player loses, and the other player wins!
+
+If all possible spaces are occupied, it's a tie
